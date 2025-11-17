@@ -1,0 +1,31 @@
+Liste des modifications - Audit Lighthouse
+
+CRITIQUES (À faire en priorité)
+═════════════════════════════════════
+□ Ajouter un <title> descriptif dans le <head>
+□ Ajouter une <meta name="description"> (160 caractères max)
+□ Ajouter des attributs alt à TOUTES les images
+□ Ajouter lang="fr" à la balise <html>
+
+IMPORTANTS
+═════════════════════════════════════
+□ Optimiser LCP (16,4s) - réduire taille images carousel
+□ Implémenter lazy loading sur les images
+□ Auditer et supprimer CSS/JS inutilisés
+□ Minifier les fichiers CSS et JavaScript
+□ Corriger hiérarchie des titres (H1, H2, H3 séquentiels)
+□ Lier les labels du formulaire avec attributs for/id
+
+À AMÉLIORER
+═════════════════════════════════════
+□ Améliorer contraste des couleurs (accessibilité)
+□ Compresser les images (économies: 22 400 Kio)
+□ Configurer la mise en cache des ressources
+□ Réduire requêtes de blocage d'affichage
+
+STATISTIQUES ACTUELLES
+═════════════════════════════════════
+Performance: 74
+Accessibilité: 70
+Bonnes pratiques: 100
+SEO: 73
