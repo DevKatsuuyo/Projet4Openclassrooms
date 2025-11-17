@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nina Carducci - Photographe Professionnelle en Île-de-France</title>
     <meta name="description" content="Nina Carducci, photographe professionnelle spécialisée en portraits, événements et photographie d'entreprise en Île-de-France.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ninacarducci.photo/">
+    <meta property="og:title" content="Nina Carducci - Photographe Professionnelle en Île-de-France">
+    <meta property="og:description" content="Nina Carducci, photographe professionnelle spécialisée en portraits, événements et photographie d'entreprise en Île-de-France.">
+    <meta property="og:image" content="https://ninacarducci.photo/assets/images/nina.webp">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ninacarducci.photo/">
+    <meta property="twitter:title" content="Nina Carducci - Photographe Professionnelle en Île-de-France">
+    <meta property="twitter:description" content="Nina Carducci, photographe professionnelle spécialisée en portraits, événements et photographie d'entreprise en Île-de-France.">
+    <meta property="twitter:image" content="https://ninacarducci.photo/assets/images/nina.webp">
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +44,11 @@
 </div>
 <div id="header">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="Homme traversant une rue." loading="lazy" width="1920" height="1080">
@@ -141,5 +160,40 @@
         </div>
     </div>
 </div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Nina Carducci",
+  "image": "https://ninacarducci.photo/assets/images/nina.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 avenue Alsace-Lorraine",
+    "addressLocality": "Bordeaux",
+    "postalCode": "33200",
+    "addressCountry": "FR"
+  },
+  "telephone": "05 56 67 78 89",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "19:00"
+    }
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "Bordeaux"
+  },
+  "url": "https://ninacarducci.photo/"
+}
+</script>
 </body>
 </html>
